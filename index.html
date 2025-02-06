@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Link to your CSS file -->
+  <link rel="stylesheet" href="index.css">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Google Fonts for typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>Twimba</h1>
+  </header>
+  <main>
+    <!-- New tweet input area -->
+    <div class="tweet-input-area">
+      <img src="images/scrimbalogo.png" class="profile-pic" alt="Profile Picture">
+      <textarea placeholder="What's happening?" id="tweet-input"></textarea>
+    </div>
+    <button id="tweet-btn">Tweet</button>
+    <!-- Feed container where tweets will be rendered -->
+    <div class="feed" id="feed">
+      <!-- Tweets will be injected here -->
+    </div>
+  </main>
+  <!-- JavaScript module -->
+  <script src="index.js" type="module"></script>
+</body>
+</html>
