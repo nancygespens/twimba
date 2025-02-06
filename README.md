@@ -1,5 +1,9 @@
 # Twimba
 
+[![Demo](https://github.com/user-attachments/assets/722cb1b5-5d3e-4a1f-95c9-10ad42f5293f)](https://illustrious-dango-0c4c93.netlify.app/)
+
+> Click the image to view the demo. The link will open in the current tab (press `Ctrl + Click` or `Cmd + Click` to open in a new tab).
+
 ## Description
 Twimba is a simple Twitter clone built for learning and experimentation. It allows users to post tweets, like, retweet, reply, and delete tweets (and replies) for the authorized user (@Scrimba). All interactions are persisted in the browser's localStorage.
 
